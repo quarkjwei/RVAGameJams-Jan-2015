@@ -269,8 +269,8 @@ window.onload = function(){
             var y = sparkle.y;
             var tween = TweenLite.to(sound, 2, {"x": x, "y": y});
             //sparkles.bringToTop();
-            if(lastSparkle >= sparkle.z)
-                restart();
+            // if(lastSparkle >= sparkle.z)
+            //     restart();
             lastSparkle = sparkle.z;
     }
     function addGhosts(){
@@ -334,10 +334,6 @@ window.onload = function(){
     function unmute(index){
         if(index < music.length)
             music[index].volume(1);
-    }
-    function restart(){
-        //resetting = true;
-
     }
 
 };
