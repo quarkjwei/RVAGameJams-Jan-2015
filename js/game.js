@@ -14,7 +14,6 @@ window.onload = function(){
     }
     function preload(){
         //Load tilemap
-        game.load.pack('map', 'assets/tilemap-assets.json');
         game.load.tilemap('map', 'assets/sprites/map.json', null, Phaser.Tilemap.TILED_JSON);
         //Load sprites
         game.load.spritesheet('player', 'assets/sprites/character/player.png', 18, 28, 16);
