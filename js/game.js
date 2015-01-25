@@ -121,7 +121,7 @@ window.onload = function(){
         setTimeout(function(){
             for(var i = 0; i < music.length; i++)
                 music[i].play();
-        }, 1000);
+        }, 10000);
 
         //Start physics
         game.physics.startSystem(Phaser.Physics.ARCADE);
