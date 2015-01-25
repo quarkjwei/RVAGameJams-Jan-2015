@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="43" tileheight="43" nextobjectid="291">
+ <tileset firstgid="1" name="grass" tilewidth="43" tileheight="43">
+  <image source="background/grass.png" width="258" height="215"/>
+ </tileset>
+ <tileset firstgid="31" name="sparkle" tilewidth="20" tileheight="25">
+  <image source="character/sparkle.png" width="120" height="25"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="sparkle"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="37" name="ghost_arms" tilewidth="23" tileheight="31">
+  <image source="character/ghost_arms.png" width="92" height="31"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="ghost_arm"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="41" name="ghost_bow" tilewidth="18" tileheight="32">
+  <image source="character/ghost_bow.png" width="72" height="32"/>
+  <tile id="3">
+   <properties>
+    <property name="type" value="ghost_bow"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="45" name="ghost_hat" tilewidth="20" tileheight="31">
+  <image source="character/ghost_hat.png" width="80" height="31"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="ghost_hat"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="49" name="ghost_no_arms" tilewidth="16" tileheight="29">
+  <image source="character/ghost_no_arms.png" width="64" height="29"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="ghost_no_arms"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="53" name="Bush1_full" tilewidth="60" tileheight="29">
+  <image source="collidables/Bush1_full.png" width="60" height="29"/>
+ </tileset>
+ <tileset firstgid="54" name="houseA" tilewidth="82" tileheight="59">
+  <image source="collidables/houseA.png" width="82" height="59"/>
+ </tileset>
+ <tileset firstgid="55" name="Bush1_full" tilewidth="60" tileheight="29">
+  <image source="collidables/Bush1_full.png" width="60" height="29"/>
+ </tileset>
+ <tileset firstgid="56" name="House_C" tilewidth="111" tileheight="47">
+  <image source="collidables/House_C.png" width="111" height="47"/>
+ </tileset>
+ <tileset firstgid="57" name="Bush2_full" tilewidth="57" tileheight="29">
+  <image source="collidables/Bush2_full.png" width="57" height="29"/>
+ </tileset>
+ <tileset firstgid="58" name="Olivia Tree" tilewidth="39" tileheight="62">
+  <image source="collidables/Olivia Tree.png" width="39" height="62"/>
+ </tileset>
+ <tileset firstgid="59" name="tree_fall" tilewidth="71" tileheight="34">
+  <image source="collidables/tree_fall.png" width="71" height="34"/>
+ </tileset>
+ <tileset firstgid="60" name="House_D" tilewidth="89" tileheight="80">
+  <image source="collidables/House_D.png" width="89" height="80"/>
+ </tileset>
+ <tileset firstgid="61" name="tree_Jess_1" tilewidth="40" tileheight="61">
+  <image source="collidables/tree_Jess_1.png" width="40" height="61"/>
+ </tileset>
+ <tileset firstgid="62" name="tree_Jess2" tilewidth="40" tileheight="61">
+  <image source="collidables/tree_Jess2.png" width="40" height="61"/>
+ </tileset>
+ <tileset firstgid="63" name="tree_stump" tilewidth="17" tileheight="15">
+  <image source="collidables/tree_stump.png" width="17" height="15"/>
+ </tileset>
+ <tileset firstgid="64" name="House_e" tilewidth="109" tileheight="79">
+  <image source="collidables/House_e.png" width="109" height="79"/>
+ </tileset>
+ <tileset firstgid="65" name="houseB" tilewidth="118" tileheight="91">
+  <image source="collidables/houseB.png" width="118" height="91"/>
+ </tileset>
+ <tileset firstgid="66" name="flower bush" tilewidth="43" tileheight="28">
+  <image source="collidables/flower bush.png" width="43" height="28"/>
+ </tileset>
+ <layer name="World_1" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==
+  </data>
+ </layer>
+ <objectgroup name="World_1_remove">
+  <object id="54" gid="31" x="709" y="790">
+   <properties>
+    <property name="load" value="World_2, World_2_remove"/>
+    <property name="remove" value="World_1_remove"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="World_2" width="25" height="25" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztldsOgkAMROsNFBTYBRUN//+dduI0bniUbkKik5x0eZnupaUif61V94QxiV7qlai0yoUxcD045YBnp5yVirFOcnoIZyhJRf+SuaJjjoaeJ+VIcLbglGOgV2Cuhv5R/N4DwrtfCXxH8a2rX9KN5JL1qHcNpEIfPpSd+PXLXKgvq+1c54CsrteknDXSE7vbHN4tsX+eh+xOOvnMB1AQD3/8PzEHanKQd40jTgv9MYtt7jzJVtlzPfH7W2H/6EvcCfaL/iwS7w3B+gW87wdV
+  </data>
+ </layer>
+ <objectgroup name="World_2_remove">
+  <object id="216" gid="31" x="854.058" y="185.301"/>
+  <object id="87" gid="54" x="276.041" y="314"/>
+  <object id="88" gid="55" x="326.041" y="323"/>
+ </objectgroup>
+ <layer name="World_3" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJx9ld1qBSEMhI3GPVeltKXQwun7v2YVMvDtVHoRjLvmbzLG0VqLJdeSXNKXzJKrZOuj/vX6FtgPfHsseVnyseSnpNc/+hzQO9Zh8UflFaVH7Xec1yWfFWPCXrmm2U/E1TrhUxhM6DvO25Iv4JM4J0n4nea/w1a6YurcjvOOfFXH90HkV/gxd/ZQmE18e0AXnqcYjKPzabFnu2OinL2X7rfbPhCHtsR4mE4u5j81MKb8eS+8X5JAbsLy5Ne5R9x0L8gPnSGvVS97KJxYf7Q7R+jDezTNX2BVXsSTOu8++STdsVIe0e74sWbHmFxK890tvnwzDmcPZxLjZ7vXerof0e53ybmc5ps4cg7yzGlGnDjFnE7xmIds2SPaCzfHijVm+9vvsDUtJjnk8+TUT/oW/pxTjr3zgvdAZ/y9Yc1pdh1CbhJf9tq5Lv1ZortO3flCbIk/uczY5AH90j97zTuuPDnD2HfHlJiEnWe9ii0bziS+qdx7reQ033z6Z71Z+6j1NDs6Vq+D8+Zp/i/0cGDPeeP85UziTBVWrEHib5zqITf5np245/nwHeT7OOz/Xn8BAt4PhA==
+  </data>
+ </layer>
+ <objectgroup name="World_3_remove">
+  <object id="60" gid="49" x="896" y="539"/>
+  <object id="64" gid="31" x="133.166" y="541.049"/>
+ </objectgroup>
+ <objectgroup name="World_3_objects">
+  <object id="89" gid="56" x="308.061" y="779.257"/>
+  <object id="92" gid="58" x="48.6692" y="1055.06"/>
+  <object id="93" gid="59" x="853.269" y="158.054"/>
+  <object id="94" gid="60" x="895.85" y="543.008"/>
+  <object id="214" gid="54" x="277.367" y="314.714"/>
+  <object id="215" gid="55" x="332.449" y="325.837"/>
+ </objectgroup>
+ <objectgroup name="World_4_objects">
+  <object id="61" gid="49" x="591" y="499"/>
+  <object id="62" gid="45" x="789" y="1003"/>
+  <object id="63" gid="41" x="915.685" y="86.7067"/>
+  <object id="95" gid="61" x="147.033" y="493.057"/>
+  <object id="97" gid="61" x="986.955" y="1001.29"/>
+  <object id="98" gid="61" x="597.341" y="993.562"/>
+  <object id="99" gid="62" x="70.9469" y="503.162"/>
+  <object id="100" gid="62" x="192.209" y="521.589"/>
+  <object id="101" gid="62" x="28.7428" y="561.415"/>
+  <object id="102" gid="62" x="58.464" y="610.158"/>
+  <object id="103" gid="62" x="4.96582" y="592.325"/>
+  <object id="104" gid="62" x="49.5476" y="531.1"/>
+  <object id="105" gid="62" x="101.263" y="488.896"/>
+  <object id="106" gid="61" x="124.445" y="472.252"/>
+  <object id="107" gid="61" x="172.593" y="500.784"/>
+  <object id="108" gid="61" x="205.287" y="536.45"/>
+  <object id="109" gid="61" x="232.63" y="570.926"/>
+  <object id="114" gid="61" x="191.615" y="603.025"/>
+  <object id="115" gid="63" x="93.0521" y="539.01"/>
+  <object id="117" gid="63" x="174.488" y="540.199"/>
+  <object id="118" gid="63" x="129.906" y="583.592"/>
+  <object id="119" gid="55" x="934.156" y="1016.2"/>
+  <object id="120" gid="55" x="625.979" y="1012.04"/>
+  <object id="130" gid="64" x="668.554" y="1000.78"/>
+  <object id="133" gid="65" x="840.364" y="1002.62"/>
+  <object id="135" gid="66" x="661.728" y="1026.3"/>
+  <object id="137" gid="57" x="862.448" y="541.849"/>
+  <object id="138" gid="57" x="866.609" y="558.493"/>
+  <object id="139" gid="57" x="890.386" y="569.192"/>
+  <object id="140" gid="57" x="958.15" y="546.01"/>
+  <object id="141" gid="57" x="941.506" y="563.842"/>
+  <object id="154" gid="58" x="829.838" y="536.855"/>
+  <object id="155" gid="58" x="860.748" y="524.967"/>
+  <object id="158" gid="58" x="839.943" y="573.115"/>
+  <object id="162" gid="58" x="975.472" y="527.939"/>
+  <object id="163" gid="58" x="1000.44" y="549.338"/>
+  <object id="165" gid="58" x="986.766" y="576.087"/>
+  <object id="166" gid="58" x="1011.14" y="513.078"/>
+  <object id="167" gid="58" x="1034.91" y="531.505"/>
+  <object id="168" gid="58" x="1026.59" y="569.548"/>
+  <object id="169" gid="58" x="1012.33" y="601.053"/>
+  <object id="170" gid="58" x="1046.21" y="576.087"/>
+  <object id="171" gid="58" x="1046.8" y="609.375"/>
+  <object id="174" gid="58" x="812.005" y="568.954"/>
+  <object id="175" gid="58" x="784.067" y="560.038"/>
+  <object id="176" gid="58" x="810.222" y="514.861"/>
+  <object id="177" gid="58" x="843.51" y="491.084"/>
+  <object id="178" gid="58" x="876.203" y="494.651"/>
+  <object id="179" gid="58" x="799.522" y="605.214"/>
+  <object id="180" gid="58" x="837.565" y="608.78"/>
+  <object id="181" gid="58" x="875.609" y="623.641"/>
+  <object id="184" gid="58" x="961.8" y="496.434"/>
+  <object id="185" gid="58" x="981.416" y="494.651"/>
+  <object id="186" gid="66" x="618.006" y="500.834"/>
+  <object id="187" gid="58" x="811.331" y="650.063"/>
+  <object id="188" gid="58" x="840.81" y="656.614"/>
+  <object id="189" gid="58" x="863.738" y="671.354"/>
+  <object id="190" gid="58" x="858.825" y="720.486"/>
+  <object id="191" gid="58" x="983.293" y="623.859"/>
+  <object id="192" gid="58" x="1002.95" y="648.425"/>
+  <object id="193" gid="58" x="1024.24" y="648.425"/>
+  <object id="194" gid="58" x="981.655" y="676.267"/>
+  <object id="195" gid="58" x="983.293" y="728.674"/>
+  <object id="196" gid="58" x="1006.22" y="692.644"/>
+  <object id="197" gid="58" x="822.795" y="681.18"/>
+  <object id="198" gid="56" x="154.63" y="312.879"/>
+  <object id="201" gid="65" x="195.519" y="111.165"/>
+  <object id="202" gid="66" x="177.259" y="125.814"/>
+  <object id="205" gid="66" x="274.61" y="127.725"/>
+  <object id="206" gid="62" x="132.011" y="339.475"/>
+  <object id="207" gid="62" x="247.894" y="340.157"/>
+  <object id="209" gid="64" x="43.9592" y="311.653"/>
+  <object id="212" gid="53" x="297.349" y="122.574"/>
+  <object id="213" gid="53" x="135.712" y="121.758"/>
+  <object id="217" gid="37" x="244.643" y="145.211"/>
+  <object id="218" gid="65" x="318.235" y="111.139"/>
+  <object id="219" gid="65" x="59.3963" y="111.955"/>
+  <object id="220" gid="65" x="440.714" y="111.955"/>
+  <object id="222" gid="53" x="412.557" y="124.231"/>
+  <object id="223" gid="53" x="37.7717" y="126.681"/>
+  <object id="224" gid="53" x="513.807" y="126.681"/>
+  <object id="227" gid="53" x="15.2186" y="325.506"/>
+  <object id="229" gid="63" x="795.898" y="78.7282"/>
+  <object id="230" gid="63" x="1005.67" y="192.411"/>
+  <object id="232" gid="63" x="924.467" y="207.298"/>
+  <object id="233" gid="63" x="840.559" y="46.2475"/>
+  <object id="238" gid="58" x="185.925" y="1058.01"/>
+  <object id="240" gid="54" x="106.597" y="699.086"/>
+  <object id="244" gid="49" x="82.7774" y="348.138"/>
+  <object id="245" gid="49" x="831.208" y="596.327"/>
+  <object id="247" gid="49" x="1023.39" y="555.767"/>
+  <object id="248" gid="49" x="849.557" y="533.556"/>
+  <object id="249" gid="49" x="1022.42" y="612.745"/>
+  <object id="252" gid="49" x="867.905" y="617.573"/>
+  <object id="255" gid="49" x="970.271" y="539.35"/>
+  <object id="258" gid="49" x="840.865" y="676.482"/>
+  <object id="259" gid="49" x="814.791" y="564.459"/>
+  <object id="263" gid="49" x="1001.17" y="577.013"/>
+  <object id="266" gid="49" x="1001.17" y="675.516"/>
+  <object id="267" gid="58" x="797.997" y="671.27"/>
+  <object id="268" gid="58" x="786.408" y="628.779"/>
+  <object id="269" gid="58" x="770.957" y="591.116"/>
+  <object id="270" gid="58" x="793.168" y="524.481"/>
+  <object id="273" gid="58" x="1045.22" y="556.35"/>
+  <object id="274" gid="58" x="1045.22" y="654.853"/>
+  <object id="279" gid="58" x="1031.7" y="682.859"/>
+  <object id="280" gid="64" x="83.9859" y="1051.35"/>
+  <object id="281" gid="56" x="386.933" y="313.448"/>
+  <object id="284" gid="57" x="168.525" y="694.41"/>
+  <object id="285" gid="57" x="79.2797" y="695.321"/>
+  <object id="286" gid="53" x="271.84" y="789.201"/>
+  <object id="289" gid="53" x="398.325" y="791.118"/>
+ </objectgroup>
+ <objectgroup name="World_4_remove">
+  <object id="66" gid="31" x="937.717" y="601.056"/>
+ </objectgroup>
+</map>
