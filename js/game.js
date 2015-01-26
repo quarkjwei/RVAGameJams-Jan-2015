@@ -333,6 +333,8 @@ window.onload = function(){
     function unmute(index){
         if(index < music.length)
             music[index].volume(1);
+        if(index == music.length - 1)
+            music[index].volume(.5);
     }
 
 };
